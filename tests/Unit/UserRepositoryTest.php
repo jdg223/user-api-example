@@ -26,8 +26,6 @@ class UserRepositoryTest extends TestCase
      */
     protected $userRepository;
 
-    use WithFaker;
-
     public function setUp()
     {
         $this->userMock = Mockery::mock(UserORMInterface::class);
