@@ -13,7 +13,6 @@ use App\Exceptions\User\UserNotFoundException;
 use App\Exceptions\User\UserNotUpdatedException;
 use App\Repositories\UserRepository;
 use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class UserRepositoryTest extends TestCase
 {
@@ -28,8 +27,6 @@ class UserRepositoryTest extends TestCase
     protected $userRepository;
 
     use WithFaker;
-    use RefreshDatabase;
-
 
     public function setUp()
     {
