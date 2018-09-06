@@ -12,7 +12,6 @@ use App\Exceptions\User\UserNotCreatedException;
 use App\Exceptions\User\UserNotFoundException;
 use App\Exceptions\User\UserNotUpdatedException;
 use App\Repositories\UserRepository;
-use Illuminate\Foundation\Testing\WithFaker;
 
 class UserRepositoryTest extends TestCase
 {
