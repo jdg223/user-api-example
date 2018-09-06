@@ -24,7 +24,6 @@ class UserController extends Controller
     /**
      * Display a paginated Collection of the Users.
      *
-     *
      * @return \Illuminate\Http\Response
      *
      * @see https://laravel.com/docs/5.6/pagination#displaying-pagination-results

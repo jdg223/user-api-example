@@ -2,12 +2,12 @@
 
 namespace App\Repositories;
 
-use App\Exceptions\User\UserNotCreatedException;
-use App\Exceptions\User\UserNotFoundException;
-use App\Exceptions\User\UserNotUpdatedException;
-use App\Http\Entities\User\UserORMInterface;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;
+use App\Http\Entities\User\UserORMInterface;
+use App\Exceptions\User\UserNotFoundException;
+use App\Exceptions\User\UserNotCreatedException;
+use App\Exceptions\User\UserNotUpdatedException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class UserRepository implements RepositoryInterface
 {
